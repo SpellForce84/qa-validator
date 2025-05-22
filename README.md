@@ -1,3 +1,4 @@
+![CI](https://github.com/SpellForce84/qa-validator/actions/workflows/python-tests.yml/badge.svg)
 # 🛡️ Registrace – Validátor s API (FastAPI)
 
 Tento projekt ukazuje reálné testování a validaci uživatelské registrace pomocí Pythonu a FastAPI. Obsahuje:
@@ -15,22 +16,14 @@ Tento projekt ukazuje reálné testování a validaci uživatelské registrace p
 pip install -r requirements.txt
 Spusť server:
 
-bash
-Zkopírovat
-Upravit
 uvicorn main:app --reload
 Otevři v prohlížeči:
 
 arduino
-Zkopírovat
-Upravit
 http://127.0.0.1:8000/docs
 🧪 Testy
 Spusť testy:
 
-bash
-Zkopírovat
-Upravit
 pytest
 📦 Technologie
 Python 3.10+
